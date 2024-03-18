@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>Consultas</h1>
+    <form action="" method="post">
+        
+        <fieldset>
+            <legend><h2>Para cualquier consulta complete el siguiente formulario: </h2></legend>
+        <h3>Datos personales</h3>
+        <label for="nom">nombre:</label>
+        <input type="text" name="nombre" id="nom">
+        
+
+        <label for="ape">apellido</label>
+        <input type="text" name="apellido" id="ape" size="10">
+        <br><br>
+        
+        <label for="email">correo</label>
+        <input type="email" name="correo" id="email">
+        <br><br><br>
+        
+          
+         <h3>Datos de consulta:</h3>   
+    <label for="sector">seleccione sector de su consulta</label>
+            <select name="sector" id="sector">
+                <option value="1">Dulce</option>
+                <option value="2">Salado</option>
+                
+            </select>
+            <br><br>
+            
+            <label for="com">escriba su consulta</label>
+            <br><br>
+            <textarea name="comentario" id="com" cols="30" rows="10" placeholder="escriba su consulta"></textarea>
+            <input type="checkbox">acepto los terminos y condiciones
+        </fieldset>
+        <br><br>
+        <input type="submit" value="enviar datos">
+        <input type="reset" value="borrar datos">
+
+
+    </form>
+</body>
+</html>
